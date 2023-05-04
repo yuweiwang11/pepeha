@@ -1,9 +1,5 @@
-import { useState } from 'react'
-import mainPage from './MainPage'
 
-import './App.css'
-
-function App() {
+function MainPage() {
   
 
   return (
@@ -26,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default MainPage
