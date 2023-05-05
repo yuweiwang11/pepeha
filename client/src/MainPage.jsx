@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 function MainPage() {
   
@@ -12,8 +13,10 @@ function MainPage() {
         {/* link to pepeha intro */}
       </div>
       <div>
-        <button>CREATE PEPEHA</button>
-        {/* link to pepeha creation */}
+        <Link to='/myPepeha'>
+          <button>CREATE PEPEHA</button>
+          {/* link to pepeha creation */}
+        </Link>
       </div>
 
 
