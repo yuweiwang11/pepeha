@@ -1,28 +1,24 @@
 import { useState } from 'react'
-import mainPage from './MainPage'
-
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+
+import MainPage from './MainPage'
+import PepehaGreeting from './PepehaGreeting'
+import PepehaMaaunga from './PepehaMaaunga'
+
 
 function App() {
   
-
   return (
-    <>
-      <div>
-        <h1>PEPEHA</h1>
-      </div>
-      <div>
-        <img src="/public/mt1.png" alt="pepeha img" width="500" height="500"/>
-        {/* link to pepeha intro */}
-      </div>
-      <div>
-        <button>CREATE PEPEHA</button>
-        {/* link to pepeha creation */}
-      </div>
+    <Routes>
+      <Route>
+        <Route path="/" element={<MainPage/>} />
+        <Route path="/myPepeha" element={<PepehaGreeting/>} />
 
 
-      
-    </>
+      </Route>
+
+    </Routes>
   )
 }
 
