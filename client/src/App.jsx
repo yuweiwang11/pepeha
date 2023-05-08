@@ -5,6 +5,7 @@ import './App.css'
 import MainPage from './MainPage'
 import PepehaGreeting from './PepehaGreeting'
 import PepehaMaaunga from './PepehaMaaunga'
+import PepehaWater from './PepehaWater'
 import HomeNav from './HomeNav'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/myPepeha/Greetings" element={<PepehaGreeting />} />
           <Route path="/myPepeha/Maaunga" element={<PepehaMaaunga />} />
+          <Route path="/myPepeha/Water" element={<PepehaWater />} />
         </Route>
       </Routes>
     </>
