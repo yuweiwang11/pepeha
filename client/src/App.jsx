@@ -8,25 +8,18 @@ import PepehaMaaunga from './PepehaMaaunga'
 import HomeNav from './HomeNav'
 
 function App() {
-  
   return (
-
     <>
-
       {<HomeNav />}
 
       <Routes>
         <Route>
-          <Route path="/" element={<MainPage/>} />
-          <Route path="/myPepeha" element={<PepehaGreeting/>} />
-
-
+          <Route path="/" element={<MainPage />} />
+          <Route path="/myPepeha/Greetings" element={<PepehaGreeting />} />
+          <Route path="/myPepeha/Maaunga" element={<PepehaMaaunga />} />
         </Route>
-
       </Routes>
-    
     </>
-    
   )
 }
 

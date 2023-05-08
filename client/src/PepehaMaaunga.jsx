@@ -1,37 +1,45 @@
-import { useState } from "react"
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function PepehaMaaunga() {
-  const [maaungaName, setMaaungaName] = useState("")
+  const [maaungaName, setMaaungaName] = useState('')
 
   const onSubmit = (e) => {
     e.preventDefault()
-    console.log("maaunga name is", maaungaName)
+    console.log('maaunga name is:', maaungaName)
   }
-  
 
   return (
     <>
       <div>
         <h1>YOUR PEPEHA</h1>
       </div>
+
       <div>
-        <h3>Ko 
-          <form onSubmit={onSubmit}>
-            <input 
+        <form onSubmit={onSubmit}>
+          <h3>
+            Ko
+            <input
               type="text"
               name="yourMaaunga"
-              placeholder="The mountain that I affiliate to is"
+              placeholder=" The mountain that I affiliate to is"
               onChange={(e) => setMaaungaName(e.target.value)}
             />
-            <input type = "submit" value="save maaunga"/>
+            te māunga
+          </h3>
 
-          </form>
-          ___________ te māunga</h3>
-        <h3>Hello Everybody</h3>
+          <h3>The mountain that I affiliate to is </h3>
+          {/* <Link to="/myPepeha/Maaunga"> */}
+          <button type="submit">next</button>
+          {/* </Link> */}
+        </form>
       </div>
 
-
-      
+      <div>
+        <Link to="/myPepeha/Greetings">
+          <button>Previous</button>
+        </Link>
+      </div>
     </>
   )
 }
