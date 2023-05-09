@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+import './PepehaMaaunga.css'
+
+
 function PepehaMaaunga() {
   const [maaungaName, setMaaungaName] = useState('')
 
@@ -28,7 +31,7 @@ function PepehaMaaunga() {
             te māunga
           </h3>
 
-          <h3>The mountain that I affiliate to is </h3>
+          <h3>The mountain that I affiliate to is {maaungaName}</h3>
           <Link to="/myPepeha/Water">
             <button type="submit">next</button>
           </Link>

@@ -28,7 +28,7 @@ function PepehaWater() {
             te awa/roto/moana
           </h3>
 
-          <h3>The river/lake/sea that I affiliate to is </h3>
+          <h3>The river/lake/sea that I affiliate to is {waterName}</h3>
           <Link to="/myPepeha/Ahau">
           <button type="submit">next</button>
           </Link>

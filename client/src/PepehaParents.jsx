@@ -34,7 +34,7 @@ function PepehaParent() {
             />
           </h3>
 
-          <h3>My parents are __________ and ___________ </h3>
+          <h3>My parents are {firstParentName} and {secondParentName} </h3>
           {/* <Link to="/myPepeha/Ingoa"> */}
           <button type="submit">next</button>
           {/* </Link> */}

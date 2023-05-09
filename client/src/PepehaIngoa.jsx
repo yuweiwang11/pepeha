@@ -28,7 +28,7 @@ function PepehaIngoa() {
             tōku ingoa
           </h3>
 
-          <h3>My name is </h3>
+          <h3>My name is {ingoaName}</h3>
           {/* <Link to="/myPepeha/Water"> */}
           <button type="submit">Submit</button>
           {/* </Link> */}
