@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-function PepehaWater() {
-  const [waterName, setWaterName] = useState('')
+function PepehaAhau() {
+  const [ahauName, setahauName] = useState('')
 
   const onSubmit = (e) => {
     e.preventDefault()
-    console.log('water name is:', waterName)
+    console.log('my ahau is:', ahauName)
   }
 
   return (
@@ -18,25 +18,25 @@ function PepehaWater() {
       <div>
         <form onSubmit={onSubmit}>
           <h3>
-            Ko
+            Nō
             <input
               type="text"
-              name="yourWater"
-              placeholder=" The mountain that I affiliate to is"
-              onChange={(e) => setWaterName(e.target.value)}
+              name="yourAhau"
+              placeholder=" I am from"
+              onChange={(e) => setahauName(e.target.value)}
             />
-            te awa/roto/moana
+            ahau
           </h3>
 
-          <h3>The river/lake/sea that I affiliate to is </h3>
-          <Link to="/myPepeha/Ahau">
+          <h3>I am from </h3>
+          <Link to="/myPepeha/Ingoa">
           <button type="submit">next</button>
           </Link>
         </form>
       </div>
 
       <div>
-        <Link to="/myPepeha/Maaunga">
+        <Link to="/myPepeha/Water">
           <button>Previous</button>
         </Link>
       </div>
@@ -44,4 +44,4 @@ function PepehaWater() {
   )
 }
 
-export default PepehaWater
+export default PepehaAhau

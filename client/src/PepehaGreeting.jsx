@@ -10,7 +10,7 @@ function PepehaGreeting() {
 
       <div>
         <h3>Tēnā koutou katoa</h3>
-        <h3>Hello Everybody</h3>
+        <h3>Greetings all</h3>
       </div>
 
       <div>
