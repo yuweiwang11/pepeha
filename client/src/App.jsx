@@ -8,6 +8,7 @@ import PepehaMaaunga from './PepehaMaaunga'
 import PepehaWater from './PepehaWater'
 import PepehaAhau from './PepehaAhau'
 import PepehaIngoa from './PepehaIngoa'
+import PepehaParent from './PepehaParents'
 import HomeNav from './HomeNav'
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
           <Route path="/myPepeha/Water" element={<PepehaWater />} />
           <Route path="/myPepeha/Ahau" element={<PepehaAhau />} />
           <Route path="/myPepeha/Ingoa" element={<PepehaIngoa />} />
+          <Route path="/myPepeha/Parent" element={<PepehaParent />} />
+
 
         </Route>
       </Routes>

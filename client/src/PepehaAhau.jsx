@@ -29,7 +29,7 @@ function PepehaAhau() {
           </h3>
 
           <h3>I am from </h3>
-          <Link to="/myPepeha/Ingoa">
+          <Link to="/myPepeha/Parent">
           <button type="submit">next</button>
           </Link>
         </form>

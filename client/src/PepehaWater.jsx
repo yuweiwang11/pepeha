@@ -22,7 +22,7 @@ function PepehaWater() {
             <input
               type="text"
               name="yourWater"
-              placeholder=" The mountain that I affiliate to is"
+              placeholder=" The river/lake/sea that I affiliate to is"
               onChange={(e) => setWaterName(e.target.value)}
             />
             te awa/roto/moana

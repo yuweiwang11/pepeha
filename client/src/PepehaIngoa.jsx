@@ -30,13 +30,13 @@ function PepehaIngoa() {
 
           <h3>My name is </h3>
           {/* <Link to="/myPepeha/Water"> */}
-          <button type="submit">next</button>
+          <button type="submit">Submit</button>
           {/* </Link> */}
         </form>
       </div>
 
       <div>
-        <Link to="/myPepeha/Maaunga">
+        <Link to="/myPepeha/Parent">
           <button>Previous</button>
         </Link>
       </div>
